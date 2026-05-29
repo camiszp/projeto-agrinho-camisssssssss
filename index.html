@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte - Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho do site -->
+    <header>
+        <h1>Agro Forte</h1>
+        <p>Futuro sustentável: equilíbrio entre produção e meio ambiente</p>
+        <button id="darkModeBtn">Modo Escuro</button>
+    </header>
+
+    <!-- Navegação principal -->
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <!-- Seção sobre sustentabilidade -->
+        <section id="sobre">
+            <h2>Sobre Nosso Projeto</h2>
+            <p>Promovemos práticas agrícolas sustentáveis, combinando produtividade e preservação ambiental.</p>
+            <img src="https://via.placeholder.com/600x300" alt="Agricultura sustentável">
+            <button id="saibaMaisBtn">Saiba Mais</button>
+            <p id="mensagemSobre"></p>
+        </section>
+
+        <!-- Seção de produtos agrícolas -->
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+            <div class="produtos-container">
+                <div class="produto">
+                    <img src="https://via.placeholder.com/150" alt="Produto 1">
+                    <h3>Produto 1</h3>
+                    <p>Descrição do produto 1.</p>
+                    <button class="comprarBtn">Comprar</button>
+                </div>
+                <div class="produto">
+                    <img src="https://via.placeholder.com/150" alt="Produto 2">
+                    <h3>Produto 2</h3>
+                    <p>Descrição do produto 2.</p>
+                    <button class="comprarBtn">Comprar</button>
+                </div>
+                <div class="produto">
+                    <img src="https://via.placeholder.com/150" alt="Produto 3">
+                    <h3>Produto 3</h3>
+                    <p>Descrição do produto 3.</p>
+                    <button class="comprarBtn">Comprar</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de contato -->
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="contatoForm">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+                <p id="formMensagem"></p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 Agro Forte. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
